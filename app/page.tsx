@@ -66,7 +66,7 @@ export default function Home() {
             type="text" 
             value={taskTitle}
             onChange={(e) => setTaskTitle(e.target.value)}
-            placeholder="Enter." 
+            placeholder="Enter" 
             className="flex-1 border border-gray-300 rounded px-4 py-2 text-black outline-none focus:ring-2 focus:ring-blue-400"
           />
           <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">追加</button>
